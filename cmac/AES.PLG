@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AES - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\i\AppData\Local\Temp\RSP6DAB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/AES.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\cmac\AES.CPP"
+]
+Creating command line "cl.exe @C:\Users\i\AppData\Local\Temp\RSP6DAB.tmp" 
+<h3>Output Window</h3>
+Compiling...
+AES.CPP
+E:\cmac\AES.CPP(12) : warning C4101: 'temp2' : unreferenced local variable
+E:\cmac\AES.CPP(12) : warning C4101: 'temp3' : unreferenced local variable
+E:\cmac\AES.CPP(13) : warning C4101: 'add_result' : unreferenced local variable
+E:\cmac\AES.CPP(16) : warning C4101: 'g' : unreferenced local variable
+E:\cmac\AES.CPP(12) : warning C4101: 'temp' : unreferenced local variable
+
+
+
+<h3>Results</h3>
+AES.OBJ - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
